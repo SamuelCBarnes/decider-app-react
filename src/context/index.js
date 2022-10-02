@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-const list = ['Yes','No','Maybe','Unclear','Not Sure...Try Again','Ask a friend', 'Call the police']
+const list = ['Yes','No','Maybe','Unclear','Not Sure...Try Again','Ask a friend', 'Call the police', "It is Certain", "It is Decidedly So", "Without a Doubt", "Yes, Definitely", "You May Rely on It", "As I See it, Yes", "Most Likely", "Outlook Good", "Signs Point to Yes", "Reply Hazy, Try Again", "Ask Again Later", "Better Not Tell You Now", "Cannot Predict Now", "Concentrate and Ask Again", "Don't Count on It", "My Reply is No", "My Sources Say No", "Outlook Not So Good", "Very Doubtful"]
 
 const MyContext = React.createContext();
 class MyProvider extends Component {
