@@ -11,6 +11,9 @@ body {
 --yellow: #e9c46a;;
 --orange: #f4a261;
 --sienna: #e76f51;
+background: black;
+
+
 }
 
 a {
@@ -20,13 +23,27 @@ a {
 
 
 .container {
-  min-height: 300px;
-  width: 430px;
+  background-color: white;
+  border-radius: 50%;
+  min-height: 500px;
+  width: 500px;
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  padding: 4em;
+}
+
+.containerbackground {
+  margin: 4rem;
+  position: absolute;
+  font-size: 22rem;
+  top: -5%;
+  left: 16%;
+  bottom: 15%;
+  z-index: -1;
+  color: #000;
 }
 
 
@@ -78,4 +95,15 @@ margin-top: 20px;
 .fade-exit-active {
   transition: 0.5s;
   opacity: 0;
+}
+
+.triangleViewer {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: calc(2 * 20px * 0.866) solid blue;
+  border-top: 20px solid transparent;
+  display: inline-block;
+}
+
+.insideTriangle {
 }
